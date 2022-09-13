@@ -1,0 +1,69 @@
+{
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/database/index",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/mine/index",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "backgroundColor": "#ddd"
+            }
+        },
+        {
+            "path": "pages/login/index",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+    "tabBar": {
+        "color": "#CCCCCC",
+        "selectedColor": "#1492FF",
+        "borderStyle": "#F6F7F8",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "static/tabbar-hall-default.png",
+                "selectedIconPath": "static/tabbar-hall-active.png",
+                "text": "货源"
+            },
+            {
+                "pagePath": "pages/database/index",
+                "iconPath": "static/tabbar-deal-default.png",
+                "selectedIconPath": "static/tabbar-deal-active.png",
+                "text": "数据"
+            },
+            {
+                "pagePath": "pages/mine/index",
+                "iconPath": "static/tabbar-mine-default.png",
+                "selectedIconPath": "static/tabbar-mine-active.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "uniIdRouter": {},
+    "easycom": {
+        "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    }
+}
